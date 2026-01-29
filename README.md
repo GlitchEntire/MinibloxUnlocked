@@ -1,2 +1,3 @@
 # MinibloxUnlocked
-The best client ever!  "Fully By:MineTrumps)"
+The best client ever!  "Fully By:MineTrumps"
+
