@@ -1,0 +1,39 @@
+{
+  "name": "Miniblox Unlocked Github By BlitzX",
+  "version": "1.0.0",
+  "description": "icon.png by Alice : Made BY: Heythereu + Minetrumps",
+  "manifest_version": 3,
+  "permissions": [
+    "declarativeNetRequest"
+  ],
+  "host_permissions": [
+    "https://miniblox.io/*",
+    "https://blockcraft.online/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://miniblox.io/*",
+        "https://blockcraft.online/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
